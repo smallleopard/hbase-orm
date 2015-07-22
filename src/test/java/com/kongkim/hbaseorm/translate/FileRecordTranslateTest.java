@@ -1,15 +1,15 @@
 /**
  * 
  */
-package com.jd.ipc.hbaseorm.translate;
+package com.kongkim.hbaseorm.translate;
 
 import junit.framework.Assert;
 
 import org.junit.Test;
 
-import com.jd.ipc.tools.stringable.Stringable;
-import com.jd.ipc.tools.stringable.TranslateService;
-import com.jd.ipc.tools.stringable.TranslateService.TranslateException;
+import com.kongkim.hbaseorm.common.Stringable;
+import com.kongkim.hbaseorm.common.TranslateService;
+import com.kongkim.hbaseorm.common.TranslateService.TranslateException;
 
 public class FileRecordTranslateTest {
 	

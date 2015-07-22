@@ -1,4 +1,4 @@
-package com.jd.ipc.hbaseorm.translate.impl;
+package com.kongkim.hbaseorm.translate.impl;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -19,13 +19,13 @@ import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.hbase.util.Bytes;
 
 import com.google.gson.GsonBuilder;
-import com.jd.ipc.hbaseorm.common.CommonConstants;
-import com.jd.ipc.hbaseorm.common.HTableAnnotation;
-import com.jd.ipc.hbaseorm.common.HTableAnnotation.Column;
-import com.jd.ipc.hbaseorm.common.HTableAnnotation.RowKey;
-import com.jd.ipc.hbaseorm.common.HTableAnnotation.TS;
-import com.jd.ipc.hbaseorm.translate.IHBaseObjectTransfer;
-import com.jd.ipc.tools.stringable.Stringable;
+import com.kongkim.hbaseorm.common.CommonConstants;
+import com.kongkim.hbaseorm.common.HTableAnnotation;
+import com.kongkim.hbaseorm.common.HTableAnnotation.Column;
+import com.kongkim.hbaseorm.common.HTableAnnotation.RowKey;
+import com.kongkim.hbaseorm.common.HTableAnnotation.TS;
+import com.kongkim.hbaseorm.translate.IHBaseObjectTransfer;
+import com.kongkim.hbaseorm.common.Stringable;
 
 /**
  * 实现普通需求的hbase对象和java object的翻译

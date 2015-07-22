@@ -45,7 +45,7 @@ hbase的orm模版方法，类似与JDBC模版方法使用
 	具体使用方式为：
 	(1)在工程下添加hbase-site.xml配置文件，放置hbase集群的相关信息。
 	(2)鉴于目前大部分情况下，项目中都使用spring进行数据源的管理，因此需要在spring加入如下配置,对数据源进行初始化:
-		<bean id="dataSourceHbase" class="com.jd.ipc.hbaseorm.impl.HBaseDataSourceImpl">
+		<bean id="dataSourceHbase" class="com.kongkim.hbaseorm.impl.HBaseDataSourceImpl">
 			<constructor-arg name="maxSize" value="${pool.maxsize}"/>
 		</bean>
 	(3)在java bean中使用对应的hbase注解，告知相应的rowkey，列簇等信息。具体事例：
@@ -86,10 +86,10 @@ hbase的orm模版方法，类似与JDBC模版方法使用
 			}
 	(4)指定具体的DAO，然后就可以在程序中进行相应的注入了，依然是spring配置方式:
 		<bean id="xxxDao"
-			class="com.jd.ipc.hbaseorm.impl.HBaseDaoTemplateImpl">
+			class="com.kongkim.hbaseorm.impl.HBaseDaoTemplateImpl">
 			<property name="hbaseTransfer">
-				<bean class="com.jd.ipc.hbaseorm.translate.impl.CommonHbaseTranslate">
-					<constructor-arg value="xxxx"></constructor-arg><!-- 传入指定的java bean的类路径，如com.jd.ipc.domain.User-->
+				<bean class="com.kongkim.hbaseorm.translate.impl.CommonHbaseTranslate">
+					<constructor-arg value="xxxx"></constructor-arg><!-- 传入指定的java bean的类路径，如com.kongkim.domain.User-->
 				</bean>
 			</property>
 		</bean>

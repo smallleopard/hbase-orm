@@ -1,4 +1,4 @@
-package com.jd.ipc.hbaseorm;
+package com.kongkim.hbaseorm;
 
 import org.apache.hadoop.hbase.client.HTableInterface;
 

@@ -2,14 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jd.ipc</groupId>
   <artifactId>hbase-orm</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   
   <dependencies>
-  		<dependency>
-  			<groupId>com.jd.ipc</groupId>
-    		<artifactId>stringable</artifactId>
-    		<version>0.0.2-SNAPSHOT</version>
-  		</dependency>
   	    <dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>

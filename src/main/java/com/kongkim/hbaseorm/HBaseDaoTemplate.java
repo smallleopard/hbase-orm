@@ -1,4 +1,4 @@
-package com.jd.ipc.hbaseorm;
+package com.kongkim.hbaseorm;
 
 import java.io.IOException;
 import java.util.List;

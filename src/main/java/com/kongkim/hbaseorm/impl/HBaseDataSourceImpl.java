@@ -1,4 +1,4 @@
-package com.jd.ipc.hbaseorm.impl;
+package com.kongkim.hbaseorm.impl;
 
 import java.io.IOException;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -14,7 +14,7 @@ import org.apache.hadoop.hbase.client.HConnectionManager;
 import org.apache.hadoop.hbase.client.HTableInterface;
 import org.apache.log4j.Logger;
 
-import com.jd.ipc.hbaseorm.HBaseDataSource;
+import com.kongkim.hbaseorm.HBaseDataSource;
 
 /**
  * 实现htable工厂的类，可以通过spring配置zookpeer地址以及线程池的大小，来初始化hbase Pool

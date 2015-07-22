@@ -1,4 +1,4 @@
-package com.jd.ipc.hbaseorm.impl;
+package com.kongkim.hbaseorm.impl;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -15,10 +15,10 @@ import org.apache.hadoop.hbase.client.Scan;
 import org.apache.hadoop.hbase.filter.PageFilter;
 import org.apache.hadoop.hbase.util.Bytes;
 
-import com.jd.ipc.hbaseorm.HBaseDaoTemplate;
-import com.jd.ipc.hbaseorm.HBaseDataSource;
-import com.jd.ipc.hbaseorm.common.CommonConstants;
-import com.jd.ipc.hbaseorm.translate.IHBaseObjectTransfer;
+import com.kongkim.hbaseorm.HBaseDaoTemplate;
+import com.kongkim.hbaseorm.HBaseDataSource;
+import com.kongkim.hbaseorm.common.CommonConstants;
+import com.kongkim.hbaseorm.translate.IHBaseObjectTransfer;
 
 /**
  * 提供的HBase操作的模板方法的具体实现，实现了CRUD的操作

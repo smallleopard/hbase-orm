@@ -1,4 +1,4 @@
-package com.jd.ipc.hbaseorm.common;
+package com.kongkim.hbaseorm.common;
 
 import java.nio.charset.Charset;
 

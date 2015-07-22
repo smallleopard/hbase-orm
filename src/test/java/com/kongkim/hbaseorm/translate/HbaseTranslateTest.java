@@ -1,4 +1,4 @@
-package com.jd.ipc.hbaseorm.translate;
+package com.kongkim.hbaseorm.translate;
 
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -14,9 +14,9 @@ import org.apache.hadoop.hbase.util.Bytes;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
-import com.jd.ipc.hbaseorm.common.CommonConstants;
-import com.jd.ipc.hbaseorm.common.HTableAnnotation;
-import com.jd.ipc.hbaseorm.translate.impl.CommonHbaseTranslate;
+import com.kongkim.hbaseorm.common.CommonConstants;
+import com.kongkim.hbaseorm.common.HTableAnnotation;
+import com.kongkim.hbaseorm.translate.impl.CommonHbaseTranslate;
 
 public class HbaseTranslateTest {
 

@@ -1,4 +1,4 @@
-package com.jd.ipc.hbaseorm.translate;
+package com.kongkim.hbaseorm.translate;
 
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Result;
